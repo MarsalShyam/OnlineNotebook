@@ -26,6 +26,7 @@ const SignUp = () => {
       return;
     }
     setError('')
+    
     //Sign up API Call
   };
   return (
@@ -51,6 +52,7 @@ const SignUp = () => {
             />
 
             <PasswordInput value={password} onChange={(e) => setPassword(e.target.value)} />
+
             {error && <p className='text-red-500 text-xs pb-1'>{error}</p>}
 
             <button type="submit" className="btn-primary">

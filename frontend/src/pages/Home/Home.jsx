@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Navbar from '../../components/Navbar/Navbar'
 const Home = () => {
   return (
-    <div>
-      <h3 className='font-bold text-center container border'>home</h3>
-    </div>
+    <>
+    <Navbar/>
+    </>
   )
 }
 

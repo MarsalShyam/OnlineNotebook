@@ -1,12 +1,17 @@
 import React from 'react'
-
+import ProfileInfo from '../Cards/ProfileInfo'
 const Navbar = () => {
   return (
-    <div>
-      <div className="bg-white flex items-center justify-betweeen px-6 py-2 drop-shadow">
+   
+      // <div className="bg-white flex items-center justify-betweeen px-6 py-2 drop-shadow">
+      //   <h2 className="text-xl font-medium text-black py-2">Notes</h2>
+      //   {/* <ProfileInfo/> */}
+      //   ram
+      // </div>
+      <div className='flex items-center justify-between bg-white px-6 py-2 drop-shadow'>
         <h2 className="text-xl font-medium text-black py-2">Notes</h2>
+        <ProfileInfo/>
       </div>
-    </div>
   )
 }
 
